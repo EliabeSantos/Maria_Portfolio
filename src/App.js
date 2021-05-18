@@ -16,6 +16,7 @@ import {
   CardsContainer,
   PortfolioContainer,
   PortfolioTitle,
+  CarouselContainer,
   Ocean,
   Wave,
 } from "./style";
@@ -26,6 +27,8 @@ import TextAnimation from "react-animate-text";
 import { IoLogoWhatsapp } from "react-icons/io";
 import Header from "./Header";
 import MyResumeCard from "./MyResumeCard";
+import Carousel from "./Carousel";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 AOS.init();
 
 const App = () => {
@@ -41,15 +44,6 @@ const App = () => {
               <InfoTitles>Maria Petra</InfoTitles>
               <InfoTitles>Professional Designer</InfoTitles>
               <ContactContainer>
-                <Contact>
-                  <a
-                    target="_blank"
-                    rel="noreferrer"
-                    href={"https://api.whatsapp.com/send?phone=55+41+997646043"}
-                  >
-                    <IoLogoWhatsapp />
-                  </a>
-                </Contact>
                 <Contact>
                   <a
                     target="_blank"
@@ -89,16 +83,16 @@ const App = () => {
         <MyResumeContainer>
           <ResumeTitle>My Resume</ResumeTitle>
           <CardsContainer>
-            <MyResumeCard icon={"html"} exp="100%" />
-            <MyResumeCard icon={"css"} exp="90%" />
-            <MyResumeCard icon={"js"} exp="100%" />
-            <MyResumeCard icon={"react"} exp="85%" />
-            <MyResumeCard icon={"python"} exp="40%" />
-            <MyResumeCard icon={"git"} exp="100%" />
+            <MyResumeCard icon={"ps"} exp="40%" />
+            <MyResumeCard icon={"ca"} exp="90%" />
+            <MyResumeCard icon={"co"} exp="85%" />
           </CardsContainer>
         </MyResumeContainer>
         <PortfolioContainer>
           <PortfolioTitle>Portfolio</PortfolioTitle>
+          <CarouselContainer>
+            <Carousel />
+          </CarouselContainer>
         </PortfolioContainer>
       </MainContainer>
     </>

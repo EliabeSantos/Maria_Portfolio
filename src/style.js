@@ -174,18 +174,23 @@ export const CardsContainer = styled.div`
 export const PortfolioContainer = styled.div`
   width: 100%;
   height: 100vh;
-
   background-color: #6d2fc2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+`;
+
+export const CarouselContainer = styled.div`
+  height: 23vh;
 
   display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-
-  overflow: hidden;
+  flex-direction: column;
+  align-items: center;
 `;
 
 export const PortfolioTitle = styled.h1`
-  font-weight: normal;
+  font-weight: lighter;
   color: white;
   padding: 3rem;
+  text-shadow: 0 0 0.25em currentColor;
 `;
