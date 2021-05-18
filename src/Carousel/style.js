@@ -16,6 +16,10 @@ export const ItemContainer = styled.div`
       transition: 1s ease;
     }
   }
+  @media (max-width: 400px) {
+    margin: 10vh 0 0 0;
+    height: 40vh;
+  }
 `;
 export const ItemImg = styled.img`
   width: 100px;
