@@ -13,6 +13,9 @@ export const Header = styled.div`
   position: fixed;
   top: 0;
   z-index: 10;
+
+  display: flex;
+  justify-content: space-between;
 `;
 
 // container principal
@@ -32,6 +35,7 @@ export const ProfileContainer = styled.div`
 
   background-image: url(${image});
   background-size: cover;
+  background-position: center;
 
   display: flex;
   flex-direction: column;
@@ -148,6 +152,7 @@ export const MyResumeContainer = styled.div`
 
   background-image: url(${image2});
   background-size: cover;
+  background-position: center;
 `;
 
 export const ResumeTitle = styled.h1`

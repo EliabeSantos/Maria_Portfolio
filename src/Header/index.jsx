@@ -1,4 +1,9 @@
-import { HeaderContainer, Titles, MenuOptions } from "./style";
+import {
+  HeaderContainer,
+  Titles,
+  MenuOptions,
+  MenuOptionsContainer,
+} from "./style";
 import animateScrollTo from "animated-scroll-to";
 
 const Header = () => {
@@ -39,10 +44,12 @@ const Header = () => {
     <>
       <HeaderContainer>
         <Titles>Maria</Titles>
-        <MenuOptions onClick={scroll1}>Home</MenuOptions>
-        <MenuOptions onClick={scroll2}>About</MenuOptions>
-        <MenuOptions onClick={scroll3}>Resume</MenuOptions>
-        <MenuOptions onClick={scroll4}>Portfolio</MenuOptions>
+        <MenuOptionsContainer>
+          <MenuOptions onClick={scroll1}>Home</MenuOptions>
+          <MenuOptions onClick={scroll2}>About</MenuOptions>
+          <MenuOptions onClick={scroll3}>Resume</MenuOptions>
+          <MenuOptions onClick={scroll4}>Portfolio</MenuOptions>
+        </MenuOptionsContainer>
       </HeaderContainer>
     </>
   );

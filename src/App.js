@@ -17,14 +17,13 @@ import {
   PortfolioContainer,
   PortfolioTitle,
   CarouselContainer,
-  Ocean,
-  Wave,
 } from "./style";
 import MyPhoto from "./images/Profile.jpg";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import TextAnimation from "react-animate-text";
 import { IoLogoWhatsapp } from "react-icons/io";
+import { AiFillLinkedin, AiFillInstagram } from "react-icons/ai";
 import Header from "./Header";
 import MyResumeCard from "./MyResumeCard";
 import Carousel from "./Carousel";
@@ -48,9 +47,27 @@ const App = () => {
                   <a
                     target="_blank"
                     rel="noreferrer"
-                    href={"https://api.whatsapp.com/send?phone=55+41+997646043"}
+                    href={"https://api.whatsapp.com/send?phone=55+41+97646043"}
                   >
                     <IoLogoWhatsapp />
+                  </a>
+                </Contact>
+                <Contact>
+                  <a
+                    target="_blank"
+                    rel="noreferrer"
+                    href="https://www.linkedin.com/in/maria-petra-422484211"
+                  >
+                    <AiFillLinkedin />
+                  </a>
+                </Contact>
+                <Contact>
+                  <a
+                    target="_blank"
+                    rel="noreferrer"
+                    href="https://www.instagram.com/mariah_petrah/"
+                  >
+                    <AiFillInstagram />
                   </a>
                 </Contact>
               </ContactContainer>
@@ -75,8 +92,13 @@ const App = () => {
               data-aos="fade-up"
               data-aos-anchor-placement="bottom-bottom"
             >
-              Descricao da mulher mais incrivel do mundo, feliz um ano de
-              namoro! eu te amo demais sua linda do krl slc.
+              Designer de Marketing Tenho 18 anos, brasileira e vivo no Paraná. 
+              Comecei no Design em 2016 fazendo capas e edições para livros
+              online. Em 2020 iniciei na área de propaganda onde comecei a
+              trabalhar de vez como autônoma.  Utilizo as ferramentas Figma e
+              Canva onde consigo expressar melhor minha forma de trabalho, tendo
+              liberdade para explorar a minha criatividade. Em meus trabalhos
+              busco me especializar e melhorar ainda mais na área. 
             </AboutMeText>
           </AboutMeInfoContainer>
         </AboutMeContainer>

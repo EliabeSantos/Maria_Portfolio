@@ -22,5 +22,6 @@ export const ItemContainer = styled.div`
   }
 `;
 export const ItemImg = styled.img`
-  width: 100px;
+  width: 100% !important;
+  height: 80% !important;
 `;

@@ -6,7 +6,7 @@ export const HeaderContainer = styled.div`
   background-color: #6d2fc290;
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
+  justify-content: space-between;
   align-items: center;
   position: fixed;
   top: 0;
@@ -55,5 +55,18 @@ export const MenuOptions = styled.h3`
   }
   @media (max-width: 600px) {
     display: none;
+  }
+`;
+
+export const MenuOptionsContainer = styled.div`
+  width: 30%;
+
+  display: flex;
+  justify-content: space-around;
+  @media (max-width: 600px) {
+    display: none;
+  }
+  @media (min-width: 600px) and (max-width: 920px) {
+    width: 50%;
   }
 `;

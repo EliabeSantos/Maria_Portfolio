@@ -40,7 +40,7 @@ const CarouselFunc = () => (
         href="https://drive.google.com/drive/folders/1zYE7Rt573CYdRkItGHJAW1r9LPs3Y3Ny"
         showThumbs={false}
       >
-        Easy Wash
+        Calendário Linha de Frente
       </a>
     </ItemContainer>
     <ItemContainer>
@@ -52,7 +52,7 @@ const CarouselFunc = () => (
         className="legend"
         showThumbs={false}
       >
-        Kenzie Hub
+        Promoção Linha de Frente
       </a>
     </ItemContainer>
     <ItemContainer>
@@ -64,7 +64,7 @@ const CarouselFunc = () => (
         className="legend"
         showThumbs={false}
       >
-        Lig-4
+        Promoção Retrô Pizzaria
       </a>
     </ItemContainer>
     <ItemContainer>
@@ -76,7 +76,7 @@ const CarouselFunc = () => (
         className="legend"
         showThumbs={false}
       >
-        Lig-4
+        Cardápio Retrô Pizzaria
       </a>
     </ItemContainer>
     <ItemContainer>
@@ -88,7 +88,7 @@ const CarouselFunc = () => (
         className="legend"
         showThumbs={false}
       >
-        Lig-4
+        Promoção de Natal Linha de Frente
       </a>
     </ItemContainer>
     <ItemContainer>
@@ -100,7 +100,7 @@ const CarouselFunc = () => (
         className="legend"
         showThumbs={false}
       >
-        Lig-4
+        Campanha de Crediário Linha de Frente
       </a>
     </ItemContainer>
     <ItemContainer>
@@ -112,7 +112,7 @@ const CarouselFunc = () => (
         className="legend"
         showThumbs={false}
       >
-        Lig-4
+        Cardápio Linha de Frente
       </a>
     </ItemContainer>
   </Carousel>
